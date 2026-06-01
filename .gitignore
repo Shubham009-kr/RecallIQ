@@ -1,0 +1,162 @@
+# ==================================
+# Environment Variables
+# ==================================
+.env
+.env.*
+!.env.example
+
+# ==================================
+# Python
+# ==================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==================================
+# Virtual Environments
+# ==================================
+venv/
+env/
+ENV/
+.venv/
+
+# ==================================
+# Jupyter
+# ==================================
+.ipynb_checkpoints
+
+# ==================================
+# Pytest
+# ==================================
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# ==================================
+# MyPy
+# ==================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ==================================
+# Streamlit
+# ==================================
+.streamlit/secrets.toml
+
+# ==================================
+# IDEs
+# ==================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==================================
+# OS Files
+# ==================================
+.DS_Store
+Thumbs.db
+
+# ==================================
+# ChromaDB
+# ==================================
+chroma_db/
+chroma/
+vectorstore/
+vectordb/
+
+# ==================================
+# Uploaded Files
+# ==================================
+uploads/
+audio/
+videos/
+meeting_files/
+
+# ==================================
+# Generated Outputs
+# ==================================
+transcripts/
+summaries/
+exports/
+output/
+
+# Generated Documents
+*.pdf
+*.txt
+
+# Uncomment if you want to track text exports
+# !README.txt
+
+# ==================================
+# Whisper Models
+# ==================================
+models/
+whisper_models/
+
+# ==================================
+# Logs
+# ==================================
+logs/
+*.log
+
+# ==================================
+# Temporary Files
+# ==================================
+temp/
+tmp/
+*.tmp
+
+# ==================================
+# LangChain Cache
+# ==================================
+.langchain/
+.cache/langchain/
+
+# ==================================
+# HuggingFace Cache
+# ==================================
+.huggingface/
+hf_cache/
+
+# ==================================
+# SQLite / Local DB
+# ==================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==================================
+# YouTube Downloads
+# ==================================
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.webm
+*.ogg
+
+# ==================================
+# Build Artifacts
+# ==================================
+*.zip
+*.tar.gz
+*.rar
